@@ -1,0 +1,127 @@
+amazon-affiliate/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Categories.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   ├── Deals.jsx
+│   │   │   ├── BestSeller.jsx
+│   │   │   ├── Trending.jsx
+│   │   │   ├── Newsletter.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── SearchBar.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── ProductDetails.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Wishlist.jsx
+│   │   │   └── Profile.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── package.json
+│
+├── backend/
+│   ├── api/
+│   ├── config/
+│   ├── uploads/
+│   └── index.php
+│
+└── database/
+    └── ecommerce.sql
+
+
+    Phase 1 – Homepage
+✅ Navbar
+✅ Hero Section
+✅ Product Cards
+✅ Product Details
+✅ Footer
+⏳ Categories Section
+⏳ Today's Deals
+⏳ Best Sellers
+⏳ Trending Products
+⏳ Image Slider (Carousel)
+⏳ Featured Brands
+⏳ Newsletter Section
+Phase 2 – Product Features
+⏳ Search Products
+⏳ Search Suggestions
+⏳ Category Filter
+⏳ Price Filter
+⏳ Rating Filter
+⏳ Sorting (Price, Rating, Latest)
+⏳ Pagination
+Phase 3 – User Features
+⏳ Login
+⏳ Register
+⏳ User Profile
+⏳ Wishlist
+⏳ Recently Viewed
+⏳ Product Comparison
+Phase 4 – Admin Panel
+⏳ Dashboard
+⏳ Add Product
+⏳ Edit Product
+⏳ Delete Product
+⏳ Upload Images
+⏳ Manage Categories
+Phase 5 – Backend (PHP)
+⏳ PHP REST API
+⏳ MySQL Database
+⏳ CRUD Operations
+⏳ Authentication
+⏳ Image Upload
+⏳ API Testing
+Phase 6 – Amazon Affiliate
+⏳ Amazon Associates Account
+⏳ Product Advertising API
+⏳ Affiliate Links
+⏳ Click Tracking (Optional)
+⏳ Dynamic Product Data
+Phase 7 – Deployment
+⏳ Host Backend
+⏳ Deploy React App
+⏳ Connect Domain
+⏳ SSL Certificate
+⏳ SEO Optimization
+⏳ Performance Optimization
+
+
+
+
+
+
+
+
+
+
+
+Category	Icon
+Electronics	💻
+Mobiles	📱
+Fashion	👕
+Gaming	🎮
+Home	🏠
+Books	📚
+Sports	⚽
+Kitchen	🍴
+Grocery	🍎
+Health	❤️
+Automobile	🚗
+Baby	👶
+Pets	🐶
+Furniture	🛋️
+Appliances	📺
+Camera	📷
+Music	🎵
+Fitness	🏋️
