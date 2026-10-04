@@ -15,6 +15,10 @@ import {
   getProductsByCategory,
 } from "../services/api";
 
+
+import background from "../assets/background.jpg";
+
+
 function Home() {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
@@ -135,7 +139,12 @@ function Home() {
   }
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+   <div
+  className="min-h-screen bg-fixed bg-cover bg-center"
+  style={{
+    backgroundImage: `linear-gradient(rgba(255,255,255,0.62), rgba(255,255,255,0.1)), url(${background})`,
+  }}
+>
 
       {/* Hero Slider */}
       <Hero />
